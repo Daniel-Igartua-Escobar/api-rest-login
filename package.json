@@ -1,0 +1,30 @@
+{
+  "name": "api-rest-login",
+  "version": "1.0.0",
+  "description": "Servidor para gestionar las llamadas y almacenar los datos de la aplicación pwa-login.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Igartua Escobar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "node-fetch": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Igartua-Escobar/api-rest-login.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daniel-Igartua-Escobar/api-rest-login/issues"
+  },
+  "homepage": "https://github.com/Daniel-Igartua-Escobar/api-rest-login#readme"
+}
