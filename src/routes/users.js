@@ -11,11 +11,10 @@ router.post('/', (req, res) => {
       const lastConnection = currentUser.lastConnection;
       res.status(200).json({lastConnection});
     } else {
-      res.status(302).json({error: 'Contraseña incorrecta'});
+      res.status(302).json({error: 'password'});
     }
   } else {
-    users.push(req.body);
-    res.status(200).json({message: 'new user'});
+    res.status(302).json({error: 'email'});
   }
 })
 
